@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>N.E.W.S: Your Travel partner🧭</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="news_styleSheet.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="sectionhomepage">
+            <div class="all_page">
+                <div class="main_page_card">
+                    <div class="main_page_header">
+                        <h1>N.E.W.S ™</h1>
+                        <h4>*NORTH-EAST-WEST-SOUTH*🧭<br>
+                        We cover your Every travel Destination.</h4>
+                    </div>
+                    <div class="main_heading">
+                        <h3>Plan Your family or solo trips with us to get the most out of it.</h3>
+                        <h4>Choose your Favourite Places.</h4>
+                    </div>
+                    <div class="homepage_details_card">
+                            <h2><strong>PARIS:🗼</strong><br>
+                                The City of Love, Lights, and Endless Allure.</h2>
+                            <div class="details_card d-flex flex-row">
+                                <p class="para_detailspage">Paris, the enchanting capital of France, is a city that has captured the hearts of <br>
+                                    poets, artists, and dreamers for centuries.Renowned as the "City of Love," Paris exudes a <br>
+                                    captivating charm that weaves romance into its very fabric. From its iconic landmarks like the <br>
+                                    Eiffel Tower and the Louvre Museum to its charming cobblestone streets and quaint cafés, Paris <br>
+                                    offers an irresistible blendof beauty, history, and culture.
+                                </p>
+                                <img src="https://w0.peakpx.com/wallpaper/121/308/HD-wallpaper-eiffel-tower-paris-city-eiffel-tower-paris.jpg" class="homepage_images">                           
+                            </div>
+                            <button class="btn btn-primary button" onclick="display('sectionParisCard')">
+                                Details
+                            </button>
+                    </div>
+                    <div class="homepage_details_card">
+                        <h2><strong>NEW YORK:🗽</strong><br>
+                            The City That Never Sleeps.</h2>
+                        <div class="details_card d-flex flex-row">
+                            <p class="para_detailspage">New York City, the vibrant metropolis that never sleeps, is a global hub of culture, finance,<br> 
+                                and innovation. From its towering skyscrapers and iconic landmarks to its diverse neighborhoods
+                                and bustling streets, New York City is a city that pulsates with energy and excitement.
+                            </p>
+                            <img src="https://w0.peakpx.com/wallpaper/820/941/HD-wallpaper-new-york-city-flag-new-york-statue-of-liberty-usa.jpg" class="homepage_images">                           
+                        </div>
+                        <button class="btn btn-primary button" onclick="display('sectionnewyorkCard')">
+                            Details
+                        </button>
+                    </div>
+                    <div class="homepage_details_card">
+                        <h2><strong>TOKYO:🏯</strong><br>
+                            A City of Neon Lights and Ancient Traditions.</h2>
+                        <div class="details_card d-flex flex-row">
+                            <p class="para_detailspage">
+                                Tokyo, Japan's vibrant capital, is a city that seamlessly blends ancient traditions with<br>
+                                futuristic innovation. From its towering skyscrapers and neon-lit streets to its serene temples
+                                <br>and tranquil gardens, Tokyo offers a captivating blend of old and new.
+                            </p>
+                            <img src="https://w0.peakpx.com/wallpaper/309/786/HD-wallpaper-tokyo-tower-japan-city-tower-night-tokyo.jpg" class="homepage_images">                           
+                        </div>
+                        <button class="btn btn-primary button" onclick="display('sectiontokyoCard')">
+                            Details
+                        </button>
+                    </div>
+                    <div class="homepage_details_card">
+                        <h2><strong>MEXICO:🏛️</strong><br>
+                            A Country that will make you Fall in LOVE.</h2>
+                        <div class="details_card d-flex flex-row">
+                            <p class="para_detailspage">
+                                Experience the vibrant energy and cultural richness of Mexico City, a bustling metropolis with<br>
+                                a rich history. Wander through the historic center, a UNESCO World Heritage Site, and soak in<br>
+                                the colorful murals of Coyoacán.
+                            </p>
+                            <img src="https://w0.peakpx.com/wallpaper/735/800/HD-wallpaper-palacio-de-bellas-artes-in-mexico-city-2017-bing.jpg" class="homepage_images">                           
+                        </div>
+                        <button class="btn btn-primary button" onclick="display('sectionmexicoCard')">
+                            Details
+                        </button>
+                    </div>
+                    <div class="homepage_details_card">
+                        <h2><strong>MUMBAI:🛕</strong><br>
+                            The City of Dreams and Vibrant Culture.</h2>
+                        <div class="details_card d-flex flex-row">
+                            <p class="para_detailspage">
+                                Mumbai, the capital of the Indian state of Maharashtra, is a vibrant and cosmopolitan <br>
+                                metropolis known as the "City of Dreams." It is a hub of finance, entertainment, and fashion,
+                                <br> andis home to a diverse population from all over India. The city is also a major cultural<br>
+                                center, with a rich history and heritage.
+                            </p>
+                            <img src="https://w0.peakpx.com/wallpaper/891/725/HD-wallpaper-gate-way-of-india-india-mumbai.jpg" class="homepage_images">                           
+                        </div>
+                        <button class="btn btn-primary button" onclick="display('sectionmumbaiCard')">
+                            Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sectionParisCard">
+            <div class="all_page">
+                <h1><strong>PARIS</strong></h1>
+                <h2 class="main_heading">Visit the city of love with your loving Family.</h2>
+                <div><h1>About:</h1></div>
+                <div class="about_card">
+                    <h><strong>Embrace the Parisian Lifestyle:</strong><br>
+                        Stroll along the banks of the Seine River, hand in hand with your loved one, and soak in the romantic ambiance.
+                        Indulge in delectable croissants and sip café au lait at sidewalk cafés while immersing yourself in the vibrant
+                        Parisian street life. Explore the labyrinthine alleyways of Montmartre, the artist's haven, and discover hidden gems at every turn.<br>
+                        <strong>Discover a Cultural Paradise:</strong><br>
+                        Delve into the masterpieces of the Louvre Museum, where Mona Lisa's enigmatic smile awaits. Wander through the
+                        hallowed halls of Notre Dame Cathedral, a testament to centuries of architectural brilliance. Immerse yourself
+                        in the grandeur of the Palace of Versailles, where royalty once reigned.<br>
+                        <strong>A Culinary Adventure Awaits:</strong><br>
+                        Embark on a culinary adventure, savoring the rich flavors of French cuisine. Indulge in delectable pastries,
+                        indulge in hearty coq au vin, and savor the delicate flavors of fine French wines.<br>
+                        <strong>Paris: A City for Every Soul:</strong><br>
+                        Whether you're seeking romantic escapades, cultural immersion, or simply a taste of the Parisian lifestyle, 
+                        Paris has something to offer every traveler. Let the City of Love enchant you with its timeless beauty,
+                        captivating charm, and endless allure.
+                    </h>
+                </div>
+                <div class=" button flex-row justify-content-center">
+                    <button class="btn btn-primary" onclick="display('sectionhomepage')">Back😢</button>
+                    <button class=" btn btn-primary" onclick="display('sectionparisbookingpage')">Book Now</button>
+                </div>
+            </div>
+        </div>
+        <div id="sectionnewyorkCard">
+            <div class="all_page">
+                <h1><strong>NEW YORK</strong></h1>
+                <h2 class="main_heading">Visit The Melting Pot of America.</h2>
+                <div><h1>About:</h1></div>
+                <div class="about_card">
+                    <h><strong>A Cultural Melting Pot:</strong><br>
+                        Immerse yourself in the vibrant tapestry of cultures that make up New York City. Explore the culinary delights <br>
+                        of Chinatown, savor the soulful sounds of Harlem jazz, and discover hidden gems in the art galleries of SoHo.<br>
+                        <strong>A City of Iconic Landmarks:</strong><br>
+                        Stand in awe beneath the majestic Statue of Liberty, a symbol of freedom and hope. Stroll through Central Park,<br>
+                        a green oasis amidst the urban jungle. Ascend the Empire State Building for breathtaking panoramic views of the city.<br>
+                        <strong>A Culinary Adventure Awaits:</strong><br>
+                        Embark on a culinary adventure, savoring the flavors of the world in New York City's diverse neighborhoods. Indulge in<br>
+                        a classic New York-style pizza slice, sample authentic street food from around the globe, and dine in Michelin-starred restaurants.<br>
+                        <strong>New York:A City for Every Dream:</strong><br>
+                        Whether you're seeking cultural immersion, endless entertainment, or simply a taste of the New York City lifestyle, this<br>
+                        dynamic metropolis has something to offer every traveler. Let the City That Never Sleeps ignite your imagination and create<br>
+                        memories that will last a lifetime.
+                    </h>
+                </div>
+                    <div class=" button flex-row justify-content-center">
+                        <button class="btn btn-primary" onclick="display('sectionhomepage')">Back😢</button>
+                        <button class=" btn btn-primary" onclick="display('sectionnewyorkbookingpage')">Book Now</button>
+                    </div>
+            </div>
+        </div>
+        <div id="sectiontokyoCard">
+            <div class="all_page">
+                <h1><strong>TOKYO CITY</strong></h1>
+                <h2 class="main_heading">Visit the Land of Endless Possibilities.</h2>
+                <div><h1>About:</h1></div>
+                <div class="about_card">
+                    <h><strong>A Fusion of Tradition and Innovation:</strong><br>
+                        Tokyo, Japan's sprawling metropolis, is a mesmerizing blend of ancient traditions and futuristic innovation. From its towering<br>
+                        skyscrapers and neon-lit streets to its serene temples and tranquil gardens, Tokyo offers a captivating journey through time and culture.<br>
+                        <strong>Immerse Yourself in History:</strong><br>
+                        Step back in time and explore the captivating atmosphere of Asakusa, home to the Sensō-ji Temple, Tokyo's oldest and most <br>
+                        revered temple. Wander through the bustling Nakamise-dori shopping street, lined with traditional shops and stalls, and<br>
+                        immerse yourself in the vibrant spirit of Old Tokyo.<br>
+                        <strong>Embrace the Neon City:</strong><br>
+                        Experience the electrifying energy of Shibuya Crossing, the world's busiest pedestrian intersection, where a sea of people<br>
+                        converge in a synchronized dance of urban life. Ascend the Tokyo Tower, a symbol of the city's skyline, for breathtaking<br>
+                        panoramic views of the neon-lit metropolis.<br>
+                        <strong>Tokyo: A City of Endless Possibilities:</strong><br>
+                        Tokyo is a city that constantly reinvents itself, seamlessly blending the old with the new. From its ancient temples to its futuristic<br>
+                        skyscrapers, Tokyo offers an endless array of experiences and discoveries. Let the allure of Tokyo captivate your senses, ignite your<br>
+                        imagination, and create memories that will last a lifetime.<br>
+                        </h>
+                    </div>
+                    <div class="button flex-row justify-content-center">
+                        <button class="btn btn-primary" onclick="display('sectionhomepage')">Back😢</button>
+                        <button class=" btn btn-primary" onclick="display('sectiontokyobookingpage')">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <div id="sectionmexicoCard">
+            <div class="all_page">
+                <h1><strong>MEXICO CITY</strong></h1>
+            <h2 class="main_heading">Visit the Symphony of Culture, History, and Culinary Delights.</h2>
+            <div><h1>About:</h1></div>
+            <div class="about_card">
+                <h><strong>Immerse Yourself in Cultural Splendor:</strong><br>
+                    Embark on a journey through time as you explore the awe-inspiring ruins of Chichen Itza, an ancient Mayan city and UNESCO World Heritage Site.<br>
+                    Delve into the rich Indigenous traditions of Oaxaca, renowned for its colorful handicrafts and delectable cuisine.<br>
+                    <strong>Explore Majestic Colonial Gems:</strong><br>
+                    Wander through the charming cobblestone streets of Guanajuato, a UNESCO World Heritage Site, and marvel at its pastel-colored <br>
+                    buildings and underground tunnels. Discover the architectural splendor of San Miguel de Allende, known for its stunning colonial<br>
+                    architecture and lively art scene.<br>
+                    <strong>Embrace the Rhythms of Modern Mexico:</strong><br>
+                    Immerse yourself in the vibrant energy of Mexico City, the country's capital, where towering skyscrapers meet ancient Aztec ruins.<br>
+                    Experience the electrifying nightlife of Guadalajara, the country's second-largest city, and savor its authentic mariachi music.<br>
+                    <strong>Indulge in Culinary Delights:</strong><br>
+                    Embark on a culinary adventure through Mexico's diverse flavors. Savor the rich aromas and spicy flavors of mole poblano,<br>
+                    a complex sauce originating from Puebla. Delight in the freshness of ceviche, a tangy seafood dish, and indulge in the hearty<br>
+                    flavors of tacos al pastor, marinated pork grilled on a vertical rotisserie.
+                </h>
+            </div>
+            <div class=" button flex-row justify-content-center">
+                <button class="btn btn-primary" onclick="display('sectionhomepage')">Back😢</button>
+                <button class=" btn btn-primary" onclick="display('sectionmexicobookingpage')">Book Now</button>
+            </div>
+            </div>
+        </div> 
+        <div id="sectionmumbaiCard">
+            <div class="all_page">
+                <h1><strong>MUMBAI CITY</strong></h1>
+                <h2 class="main_heading">Visit a city that will captivate your senses and leave you wanting more</h2>
+                <div><h1>About:</h1></div>
+                <div class="about_card">
+                    <h><strong>Mumbai: Where Dreams Take Flight:</strong><br>
+                        Mumbai, the financial and entertainment capital of India, is an electrifying metropolis that never sleeps. From its bustling<br>
+                        marketplaces to its serene temples, Mumbai is a city of contrasts, where ancient traditions meet modern innovation..<br>
+                        <strong>A City of Dreams and Endless Possibilities:</strong><br>
+                        Mumbai is a place where dreams come true. The city is home to Bollywood, India's vibrant film industry, and is also a hub for<br>
+                        entrepreneurs and innovators. Mumbai's streets are filled with energy and ambition, and there is always something new to discover.<br>
+                        <strong>A Cultural Tapestry:</strong><br>
+                        Mumbai is a melting pot of cultures, with people from all over India and the world calling the city home. This diversity is reflected<br>
+                        in the city's food, music, and art. Mumbai is a feast for the senses, and there is always something new to experience.<br>
+                        <strong>A Culinary Paradise:</strong><br>
+                        Mumbai is a foodie's paradise, with street food stalls and restaurants serving up everything from traditional Indian dishes to<br>
+                        international cuisine. The city is also home to many cafes and bars, where you can relax and enjoy the vibrant atmosphere.
+                    </h>
+                </div>
+                <div class=" button flex-row justify-content-center">
+                    <button class="btn btn-primary" onclick="display('sectionhomepage')">Back😢</button>
+                    <button class=" btn btn-primary" onclick="display('sectionmumbaibookingpage')">Book Now</button>
+                </div>
+            </div>
+        </div>
+        <div id="sectionparisbookingpage">
+            <div class="all_page">
+                <h1><strong>Package Details</strong></h1>
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="package_card">
+                        <h2>Premium Pack: ₹599999/-</h2>
+                        <ul type="disc">
+                            <li>A four day trip to Paris.</li>
+                            <li> Four days Accomodation from exclusive 5⭐ Hotels.</li>
+                            <li>Visit the entire country with dedicated Transport.</li>
+                            <li>Return Flight to Home.
+                        </ul>                        
+                    </div>
+                    <div class="gold_package_card">
+                        <h2>Gold Pack: ₹499999/-</h2>
+                        <ul type="disc">
+                            <li>A Three day trip to Paris.</li>
+                            <li>Three days Accomodation from exclusive 3⭐ Hotels.</li>
+                            <li>Visit the whole Paris City with dedicated Transport.</li>
+                            <li>Return Flight to Home.
+                        </ul>
+                    </div>
+                    <div class="silver_package_card">
+                        <h2>Silver Pack: ₹399999/-</h2>
+                        <ul type="disc">
+                            <li>A Two day trip to Paris.</li>
+                            <li>Two days Accomodation from exclusive 3⭐ Hotels.</li>
+                            <li>Return Flight to Home.
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="main_heading">Choose Your Package</h1>
+                    <form id="radioForm1">
+                        <label>
+                          <input type="radio" name="options1" value="Premium Pack" onclick="displayOption(this)"> Premium Pack
+                        </label>
+                        
+                        <label>
+                          <input type="radio" name="options1" value="Gold Pack" onclick="displayOption(this)"> Gold Pack
+                        </label>
+                        
+                        <label>
+                          <input type="radio" name="options1" value="Silver Pack" onclick="displayOption(this)"> Silver Pack
+                        </label>
+                    </form>
+                    <h1 class="main_heading">Enter Your Details</h1>
+                    <div class="user_details_card">
+                        <form id="userForm1">
+                            <label for="firstName1">First Name:</label>
+                            <input type="text" id="firstName1" required>
+                    
+                            <label for="lastName1">Last Name:</label>
+                            <input type="text" id="lastName1" required><br>
+                    
+                            <label for="phoneNumber1">Phone Number:</label>
+                            <input type="tel" id="phoneNumber1" required>
+                    
+                            <label for="email1">Email:</label>
+                            <input type="email" id="email1" required><br>
+
+                            <label for="cardNumber">Card Number:</label>
+                            <input type="text" id="cardNumber" name="cardNumber" pattern="[0-9]{16}" required>
+                            
+                            <label for="expiryDate">Expiry Date:</label>
+                            <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" pattern="(0[1-9]|1[0-2])\/[0-9]{2}" required>
+                            <br>
+                            <label for="cvv">CVV:</label>
+                            <input type="text" id="cvv" name="cvv" pattern="[0-9]{3,4}" required>
+                            <br>
+                            <div class="d-flex flex-row justify-content-center" onclick="display('sectioncongratspageparis')">
+                                <button type="button" class="btn btn-primary" onclick="saveUserData1()">Submit</button>
+                            </div>                           
+                        </form>    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sectionnewyorkbookingpage">
+            <div class="all_page">
+                <h1><strong>Package Details</strong></h1>
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="package_card">
+                        <h2>Premium Pack: ₹599999/-</h2>
+                        <ul type="disc">
+                            <li>A four day trip to New York.</li>
+                            <li> Four days Accomodation from exclusive 5⭐ Hotels.</li>
+                            <li>Visit the entire country with dedicated Transport.</li>
+                            <li>Return Flight to Home.
+                        </ul>                        
+                    </div>
+                    <div class="gold_package_card">
+                        <h2>Gold Pack: ₹499999/-</h2>
+                        <ul type="disc">
+                            <li>A Three day trip to New York.</li>
+                            <li>Three days Accomodation from exclusive 3⭐ Hotels.</li>
+                            <li>Visit the whole New York City with dedicated Transport.</li>
+                            <li>Return Flight to Home.
+                        </ul>
+                    </div>
+                    <div class="silver_package_card">
+                        <h2>Silver Pack: ₹399999/-</h2>
+                        <ul type="disc">
+                            <li>A Two day trip to New York.</li>
+                            <li>Two days Accomodation from exclusive 3⭐ Hotels.</li>
+                            <li>Return Flight to Home.
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="main_heading">Choose Your Package</h1>
+                    <form id="radioForm2">
+                        <label>
+                          <input type="radio" name="options" value="Premium Pack" onclick="displayOption(this)"> Premium Pack
+                        </label>
+                        
+                        <label>
+                          <input type="radio" name="options" value="Gold Pack" onclick="displayOption(this)"> Gold Pack
+                        </label>
+                        
+                        <label>
+                          <input type="radio" name="options" value="Silver Pack" onclick="displayOption(this)"> Silver Pack
+                        </label>
+                    </form>
+                    <h1 class="main_heading">Enter Your Details</h1>
+                    <div class="user_details_card">
+                        <form id="userForm2">
+                            <label for="firstName2">First Name:</label>
+                            <input type="text" id="firstName2" required>
+                    
+                            <label for="lastName2">Last Name:</label>
+                            <input type="text" id="lastName2" required><br>
+                    
+                            <label for="phoneNumber2">Phone Number:</label>
+                            <input type="tel" id="phoneNumber2" required>
+                    
+                            <label for="email2">Email:</label>
+                            <input type="email" id="email2" required><br>
+
+                            <label for="cardNumber">Card Number:</label>
+                            <input type="text" id="cardNumber" name="cardNumber" pattern="[0-9]{16}" required>
+                            
+                            <label for="expiryDate">Expiry Date:</label>
+                            <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" pattern="(0[1-9]|1[0-2])\/[0-9]{2}" required>
+                            <br>
+                            <label for="cvv">CVV:</label>
+                            <input type="text" id="cvv" name="cvv" pattern="[0-9]{3,4}" required>
+                            <br>
+                            <div class="d-flex flex-row justify-content-center" onclick="display('sectioncongratspagenewyork')">
+                                <button type="button" class="btn btn-primary" onclick="saveUserData2()">Submit</button>
+                            </div>                           
+                        </form>    
+                    </div>
+                </div>>
+            </div>
+        </div>
+        <div id="sectiontokyobookingpage">
+            <div class="all_page">
+                <h1><strong>Package Details</strong></h1>
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="package_card">
+                        <h2>Premium Pack: ₹599999/-</h2>
+                        <ul type="disc">
+                            <li>A four day trip to Tokyo.</li>
+                            <li> Four days Accomodation from exclusive 5⭐ Hotels.</li>
+                            <li>Visit the entire country with dedicated Transport.</li>
+                            <li>Return Flight to Home.
+                        </ul>                        
+                    </div>
+                    <div class="gold_package_card">
+                        <h2>Gold Pack: ₹499999/-</h2>
+                        <ul type="disc">
+                            <li>A Three day trip to Tokyo.</li>
+                            <li>Three days Accomodation from exclusive 3⭐ Hotels.</li>
+                            <li>Visit the whole Tokyo City with dedicated Transport.</li>
+                            <li>Return Flight to Home.
+                        </ul>
+                    </div>
+                    <div class="silver_package_card">
+                        <h2>Silver Pack: ₹399999/-</h2>
+                        <ul type="disc">
+                            <li>A Two day trip to Tokyo.</li>
+                            <li>Two days Accomodation from exclusive 3⭐ Hotels.</li>
+                            <li>Return Flight to Home.
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="main_heading">Choose Your Package</h1>
+                    <form id="radioForm3">
+                        <label>
+                          <input type="radio" name="options3" value="Premium Pack" onclick="displayOption(this)"> Premium Pack
+                        </label>
+                        
+                        <label>
+                          <input type="radio" name="options3" value="Gold Pack" onclick="displayOption(this)"> Gold Pack
+                        </label>
+                        
+                        <label>
+                          <input type="radio" name="options3" value="Silver Pack" onclick="displayOption(this)"> Silver Pack
+                        </label>
+                      </form>
+                    <h1 class="main_heading">Enter Your Details</h1>
+                    <div class="user_details_card">
+                        <form id="userForm3">
+                            <label for="firstName3">First Name:</label>
+                            <input type="text" id="firstName3" required>
+                    
+                            <label for="lastName3">Last Name:</label>
+                            <input type="text" id="lastName3" required><br>
+                    
+                            <label for="phoneNumber3">Phone Number:</label>
+                            <input type="tel" id="phoneNumber3" required>
+                    
+                            <label for="email3">Email:</label>
+                            <input type="email" id="email3" required><br>
+
+                            <label for="cardNumber">Card Number:</label>
+                            <input type="text" id="cardNumber" name="cardNumber" pattern="[0-9]{16}" required>
+                            
+                            <label for="expiryDate">Expiry Date:</label>
+                            <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" pattern="(0[1-9]|1[0-2])\/[0-9]{2}" required>
+                            <br>
+                            <label for="cvv">CVV:</label>
+                            <input type="text" id="cvv" name="cvv" pattern="[0-9]{3,4}" required>
+                            <br>
+                            <div class="d-flex flex-row justify-content-center" onclick="display('sectioncongratspagetokyo')">
+                                <button type="button" class="btn btn-primary" onclick="saveUserData3()">Submit</button>
+                            </div>                           
+                        </form>    
+                    </div>
+                </div>>
+            </div>
+        </div>
+        <div id="sectionmexicobookingpage">
+            <div class="all_page">
+                <h1><strong>Package Details</strong></h1>
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="package_card">
+                        <h2>Premium Pack: ₹599999/-</h2>
+                        <ul type="disc">
+                            <li>A four day trip to Mexico.</li>
+                            <li> Four days Accomodation from exclusive 5⭐ Hotels.</li>
+                            <li>Visit the entire country with dedicated Transport.</li>
+                            <li>Return Flight to Home.
+                        </ul>                        
+                    </div>
+                    <div class="gold_package_card">
+                        <h2>Gold Pack: ₹499999/-</h2>
+                        <ul type="disc">
+                            <li>A Three day trip to Mexico.</li>
+                            <li>Three days Accomodation from exclusive 3⭐ Hotels.</li>
+                            <li>Visit the whole Mexico City with dedicated Transport.</li>
+                            <li>Return Flight to Home.
+                        </ul>
+                    </div>
+                    <div class="silver_package_card">
+                        <h2>Silver Pack: ₹399999/-</h2>
+                        <ul type="disc">
+                            <li>A Two day trip to Mexico.</li>
+                            <li>Two days Accomodation from exclusive 3⭐ Hotels.</li>
+                            <li>Return Flight to Home.
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="main_heading">Choose Your Package</h1>
+                    <form id="radioForm">
+                        <label>
+                          <input type="radio" name="options" value="Premium Pack" onclick="displayOption(this)"> Premium Pack
+                        </label>
+                        
+                        <label>
+                          <input type="radio" name="options" value="Gold Pack" onclick="displayOption(this)"> Gold Pack
+                        </label>
+                        
+                        <label>
+                          <input type="radio" name="options" value="Silver Pack" onclick="displayOption(this)"> Silver Pack
+                        </label>
+                      </form>
+                    <h1 class="main_heading">Enter Your Details</h1>
+                    <div class="user_details_card">
+                        <form id="userForm4">
+                            <label for="firstName4">First Name:</label>
+                            <input type="text" id="firstName4" required>
+                    
+                            <label for="lastName4">Last Name:</label>
+                            <input type="text" id="lastName4" required><br>
+                    
+                            <label for="phoneNumber4">Phone Number:</label>
+                            <input type="tel" id="phoneNumber4" required>
+                    
+                            <label for="email4">Email:</label>
+                            <input type="email" id="email4" required><br>
+
+                            <label for="cardNumber">Card Number:</label>
+                            <input type="text" id="cardNumber" name="cardNumber" pattern="[0-9]{16}" required>
+                            
+                            <label for="expiryDate">Expiry Date:</label>
+                            <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" pattern="(0[1-9]|1[0-2])\/[0-9]{2}" required>
+                            <br>
+                            <label for="cvv">CVV:</label>
+                            <input type="text" id="cvv" name="cvv" pattern="[0-9]{3,4}" required>
+                            <br>
+                            <div class="d-flex flex-row justify-content-center" onclick="display('sectioncongratspagemexico')">
+                                <button type="button" class="btn btn-primary" onclick="saveUserData4()">Submit</button>
+                            </div>                           
+                        </form>    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sectionmumbaibookingpage">
+            <div class="all_page">
+                <h1><strong>Package Details</strong></h1>
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="package_card">
+                        <h2>Premium Pack: ₹599999/-</h2>
+                        <ul type="disc">
+                            <li>A four day trip to Mumbai.</li>
+                            <li> Four days Accomodation from exclusive 5⭐ Hotels.</li>
+                            <li>Visit the entire country with dedicated Transport.</li>
+                            <li>Return Flight to Home.
+                        </ul>                        
+                    </div>
+                    <div class="gold_package_card">
+                        <h2>Gold Pack: ₹499999/-</h2>
+                        <ul type="disc">
+                            <li>A Three day trip to Mumbai.</li>
+                            <li>Three days Accomodation from exclusive 3⭐ Hotels.</li>
+                            <li>Visit the whole Mumbai City with dedicated Transport.</li>
+                            <li>Return Flight to Home.
+                        </ul>
+                    </div>
+                    <div class="silver_package_card">
+                        <h2>Silver Pack: ₹399999/-</h2>
+                        <ul type="disc">
+                            <li>A Two day trip to Mumbai.</li>
+                            <li>Two days Accomodation from exclusive 3⭐ Hotels.</li>
+                            <li>Return Flight to Home.
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="main_heading">Choose Your Package</h1>
+                    <form id="radioForm5">
+                        <label>
+                          <input type="radio" name="options5" value="PremiumPack5" onclick="displayOption(selectedOption5)"> Premium Pack
+                        </label>
+                        
+                        <label>
+                          <input type="radio" name="options5" value="GoldPack5" onclick="displayOption(selectedOption5)"> Gold Pack
+                        </label>
+                        
+                        <label>
+                          <input type="radio" name="options5" value="SilverPack5" onclick="displayOption(selectedOption5)"> Silver Pack
+                        </label>
+                      </form>
+                    <h1 class="main_heading">Enter Your Details</h1>
+                    <div class="user_details_card">
+                        <form id="userForm5">
+                            <label for="firstName5">First Name:</label>
+                            <input type="text" id="firstName5" required>
+                    
+                            <label for="lastName5">Last Name:</label>
+                            <input type="text" id="lastName5" required><br>
+                    
+                            <label for="phoneNumber5">Phone Number:</label>
+                            <input type="tel" id="phoneNumber5" required>
+                    
+                            <label for="email5">Email:</label>
+                            <input type="email" id="email5" required><br>
+
+                            <label for="cardNumber">Card Number:</label>
+                            <input type="text" id="cardNumber" name="cardNumber" pattern="[0-9]{16}" required>
+                            
+                            <label for="expiryDate">Expiry Date:</label>
+                            <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" pattern="(0[1-9]|1[0-2])\/[0-9]{2}" required>
+                            <br>
+                            <label for="cvv">CVV:</label>
+                            <input type="text" id="cvv" name="cvv" pattern="[0-9]{3,4}" required>
+                            <br>
+                            <div class="d-flex flex-row justify-content-center" onclick="display('sectioncongratspagemumbai')">
+                                <button type="button" class="btn btn-primary" onclick="saveUserData5()">Submit</button>
+                            </div>                           
+                        </form>    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sectioncongratspagemexico">
+            <div class="d-flex flex-column justify-content-center all_page_3">
+                <div class="all_page_2">
+                    <div id="output4">
+                        <h2>Booking Information:</h2>
+                        <p><strong>Congratulations:</strong> <span id="displayFirstName4"></span>
+                        <span id="displayLastName4"></span> Your trip to Mexico have been Succesfull booked.</p>
+                        <p><strong>Phone Number:</strong> <span id="displayPhoneNumber4"></span></p>
+                        <p><strong>Email:</strong> <span id="displayEmail4"></span></p>
+                        <p>Thank You for believing in us.</p>
+                    </div>
+                    <script>
+                        function saveUserData4() {
+                            var firstName = document.getElementById('firstName4').value;
+                            var lastName = document.getElementById('lastName4').value;
+                            var phoneNumber = document.getElementById('phoneNumber4').value;
+                            var email = document.getElementById('email4').value;
+                
+                            document.getElementById('displayFirstName4').textContent = firstName;
+                            document.getElementById('displayLastName4').textContent = lastName;
+                            document.getElementById('displayPhoneNumber4').textContent = phoneNumber;
+                            document.getElementById('displayEmail4').textContent = email;
+                        }
+                    </script>
+                    <div id="selectedOption"></div>
+                    
+                    <script>
+                        function displayOption(radio) {
+                        var selectedOption = document.getElementById('selectedOption');
+                        selectedOption.textContent = 'Selected Option: ' + radio.value;
+                        }
+                    </script>
+                </div>
+            </div> 
+        </div>
+        <div id="sectioncongratspagemumbai">
+            <div class="d-flex flex-column justify-content-center all_page_3">
+                <div class="all_page_2">
+                    <div id="output5">
+                        <h2>Booking Information:</h2>
+                        <p><strong>Congratulations:</strong> <span id="displayFirstName5"></span>
+                        <span id="displayLastName5"></span> Your trip to Mumbai have been Succesfull booked.</p>
+                        <p><strong>Phone Number:</strong> <span id="displayPhoneNumber5"></span></p>
+                        <p><strong>Email:</strong> <span id="displayEmail5"></span></p>
+                        <p>Thank You for believing in us.</p>
+                    </div>
+                    <script>
+                        function saveUserData5() {
+                            var firstName = document.getElementById('firstName5').value;
+                            var lastName = document.getElementById('lastName5').value;
+                            var phoneNumber = document.getElementById('phoneNumber5').value;
+                            var email = document.getElementById('email5').value;
+                
+                            document.getElementById('displayFirstName5').textContent = firstName;
+                            document.getElementById('displayLastName5').textContent = lastName;
+                            document.getElementById('displayPhoneNumber5').textContent = phoneNumber;
+                            document.getElementById('displayEmail5').textContent = email;
+                        }
+                    </script>
+                    <div id="selectedOption5"></div>
+                    
+                    <script>
+                        function displayOption(radio) {
+                        var selectedOption5 = document.getElementById('selectedOption5');
+                        selectedOption5.textContent = 'Selected Package: ' + radio.value;
+                        }
+                    </script>
+                </div>
+            </div> 
+        </div>
+        <div id="sectioncongratspageparis">
+            <div class="d-flex flex-column justify-content-center all_page_3">
+                <div class="all_page_2">
+                    <div id="output1">
+                        <h2>Booking Information:</h2>
+                        <p><strong>Congratulations:</strong> <span id="displayFirstName1"></span>
+                        <span id="displayLastName1"></span> Your trip to Paris have been Succesfull booked.</p>
+                        <p><strong>Phone Number:</strong> <span id="displayPhoneNumber1"></span></p>
+                        <p><strong>Email:</strong> <span id="displayEmail1"></span></p>
+                        <p>Thank You for believing in us.</p>
+                    </div>
+                    <script>
+                        function saveUserData1() {
+                            var firstName1 = document.getElementById('firstName1').value;
+                            var lastName1 = document.getElementById('lastName1').value;
+                            var phoneNumber1 = document.getElementById('phoneNumber1').value;
+                            var email1 = document.getElementById('email1').value;
+                
+                            document.getElementById('displayFirstName1').textContent = firstName1;
+                            document.getElementById('displayLastName1').textContent = lastName1;
+                            document.getElementById('displayPhoneNumber1').textContent = phoneNumber1;
+                            document.getElementById('displayEmail1').textContent = email1;
+                        }
+                    </script>
+                    <div id="selectedOption1"></div>
+                    
+                    <script>
+                        function displayOption(radio) {
+                        var selectedOption1 = document.getElementById('selectedOption1');
+                        selectedOption1.textContent = 'Selected Option: ' + radio.value;
+                        }
+                    </script>
+                </div>
+            </div> 
+        </div>
+        <div id="sectioncongratspagenewyork">
+            <div class="d-flex flex-column justify-content-center all_page_3">
+                <div class="all_page_2">
+                    <div id="output2">
+                        <h2>Booking Information:</h2>
+                        <p><strong>Congratulations:</strong> <span id="displayFirstName2"></span>
+                        <span id="displayLastName2"></span> Your trip to Newyork have been Succesfull booked.</p>
+                        <p><strong>Phone Number:</strong> <span id="displayPhoneNumber2"></span></p>
+                        <p><strong>Email:</strong> <span id="displayEmail2"></span></p>
+                        <p>Thank You for believing in us.</p>
+                    </div>
+                    <script>
+                        function saveUserData2() {
+                            var firstName2 = document.getElementById('firstName2').value;
+                            var lastName2 = document.getElementById('lastName2').value;
+                            var phoneNumber2 = document.getElementById('phoneNumber2').value;
+                            var email2 = document.getElementById('email2').value;
+                
+                            document.getElementById('displayFirstName2').textContent = firstName2;
+                            document.getElementById('displayLastName2').textContent = lastName2;
+                            document.getElementById('displayPhoneNumber2').textContent = phoneNumber2;
+                            document.getElementById('displayEmail2').textContent = email2;
+                        }
+                    </script>
+                    <div id="selectedOption2"></div>
+                    
+                    <script>
+                        function displayOption(radio) {
+                        var selectedOption2 = document.getElementById('selectedOption2');
+                        selectedOption2.textContent = 'Selected Option: ' + radio.value;
+                        }
+                    </script>
+                </div>
+            </div> 
+        </div>
+        <div id="sectioncongratspagetokyo">
+            <div class="d-flex flex-column justify-content-center all_page_3">
+                <div class="all_page_2">
+                    <div id="output3">
+                        <h2>Booking Information:</h2>
+                        <p><strong>Congratulations:</strong> <span id="displayFirstName3"></span>
+                        <span id="displayLastName3"></span> Your trip to Tokyo have been Succesfull booked.</p>
+                        <p><strong>Phone Number:</strong> <span id="displayPhoneNumber3"></span></p>
+                        <p><strong>Email:</strong> <span id="displayEmail3"></span></p>
+                        <p>Thank You for believing in us.</p>
+                    </div>
+                    <script>
+                        function saveUserData3() {
+                            var firstName3 = document.getElementById('firstName3').value;
+                            var lastName3 = document.getElementById('lastName3').value;
+                            var phoneNumber3 = document.getElementById('phoneNumber3').value;
+                            var email3 = document.getElementById('email3').value;
+                
+                            document.getElementById('displayFirstName3').textContent = firstName3;
+                            document.getElementById('displayLastName3').textContent = lastName3;
+                            document.getElementById('displayPhoneNumber3').textContent = phoneNumber3;
+                            document.getElementById('displayEmail3').textContent = email3;
+                        }
+                    </script>
+                    <div id="selectedOption3"></div>
+                    
+                    <script>
+                        function displayOption(radio) {
+                        var selectedOption3 = document.getElementById('selectedOption3');
+                        selectedOption3.textContent = 'Selected Package: ' + radio.value;
+                        }
+                    </script>
+                </div>
+            </div> 
+        </div>
+        <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script> 
+    </body>
+</html>

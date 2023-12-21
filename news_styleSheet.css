@@ -1,0 +1,98 @@
+.homepage_images{
+    width: 180px;
+    height: 200px;
+    border-radius: 8px;
+    margin: 12px;
+}
+.all_page{
+    background-color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    color: #F4DFC8;
+    text-align: center;
+}
+.main_heading{
+    margin: 10px;
+    background-color: #FAF6F0;
+    color: black;
+    border-radius: 8px;
+    text-align: center;
+    padding: 3px;
+}
+.details_card{
+    text-align: left;
+}
+.homepage_details_card{
+    background-color:#4F4A45;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 3px;
+}
+.button{
+    margin-bottom:8px;
+    margin-top: 5px;
+    padding: 10px;
+}
+.para_detailspage{
+    text-align: left;
+    font-size: 18px;
+}
+.about_card{
+    background-color: #4f4a45;
+    border-radius: 8px;
+    padding: 3px;
+    margin: 10px;
+    width: auto;
+}
+.package_card{
+    background-color: #c619ac;
+    width: 350px;
+    text-align: left;
+    padding: 3px;
+    border-radius: 8px;
+    margin: 10px;
+}
+.gold_package_card{
+    background-color: #FFB000;
+    width: 350px;
+    text-align: left;
+    padding: 3px;
+    border-radius: 8px;
+    margin: 10px;
+    color: #FFF6F4;    
+}
+.silver_package_card{
+    background-color: #FCE9F1;
+    width: 350px;
+    text-align: left;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 10px;
+    color: #080202;    
+}
+.user_details_card{
+    padding: 10px;
+    background-color: #508D69;
+    border-radius: 8px;
+    color: #EEF296;
+    margin: 10px;
+    text-align: left;
+}
+.space{
+    margin: 5px;
+}
+.all_page_2{
+    background-color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    color: #F4DFC8;
+    text-align: center;
+    border-radius: 8px;
+    width: fit-content;
+    height: auto;
+    margin: auto;
+}
+.all_page_3{
+    background-color: #635f5f00;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
